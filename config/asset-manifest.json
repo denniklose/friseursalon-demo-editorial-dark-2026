@@ -1,0 +1,72 @@
+{
+  "assets": [
+    {
+      "path": "/images/brand-mark.svg",
+      "source": "Originales neutrales Salon-Signet für diese Template-Version",
+      "license": "Original work; für die wiederverwendbare Template-Nutzung freigegeben",
+      "alt": "Neutrales Salon-Signet der Template-Vorschau",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "usage": "logo"
+    },
+    {
+      "path": "/favicon.svg",
+      "source": "Originales neutrales Salon-Favicon für diese Template-Version",
+      "license": "Original work; für die wiederverwendbare Template-Nutzung freigegeben",
+      "alt": "Neutrales Salon-Favicon der Template-Vorschau",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "usage": "favicon"
+    },
+    {
+      "path": "/images/hero-hair-photo.webp",
+      "source": "Original KI-generiertes Haarmotiv aus der neutralen Template-Produktion; anonyme Rückansicht",
+      "license": "Original KI-generiertes Asset; für die Template-Vorschau freigegeben",
+      "alt": "Original KI-generierte Haar-Inspiration: lange dunkle Wellen von hinten",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "assetType": "photorealistic-hair",
+      "usage": "hero"
+    },
+    {
+      "path": "/images/salon-hair-photo.webp",
+      "source": "Original KI-generiertes Haarmotiv aus der neutralen Template-Produktion; anonyme Rückansicht",
+      "license": "Original KI-generiertes Asset; für die Template-Vorschau freigegeben",
+      "alt": "Original KI-generierte Haar-Inspiration: glänzender kastanienbrauner Bob von hinten",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "assetType": "photorealistic-hair",
+      "usage": "bento-primary"
+    },
+    {
+      "path": "/images/extensions-hair-photo.webp",
+      "source": "Original KI-generierte Haartextur aus der neutralen Template-Produktion",
+      "license": "Original KI-generiertes Asset; für die Template-Vorschau freigegeben",
+      "alt": "Original KI-generierte Haar-Inspiration: dunkle Haarsträhnen in Nahaufnahme",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "assetType": "photorealistic-hair",
+      "usage": "bento-secondary"
+    },
+    {
+      "path": "/images/team-hair-photo.webp",
+      "source": "Original KI-generiertes Haarmotiv aus der neutralen Template-Produktion; anonyme Rückansicht",
+      "license": "Original KI-generiertes Asset; für die Template-Vorschau freigegeben",
+      "alt": "Original KI-generierte Haar-Inspiration: blonde, texturierte Frisur von hinten",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "assetType": "photorealistic-hair",
+      "usage": "team-and-featured-service"
+    },
+    {
+      "path": "/images/about-hair-photo.webp",
+      "source": "Original KI-generiertes Haarmotiv aus der neutralen Template-Produktion; anonymes Stylingmotiv",
+      "license": "Original KI-generiertes Asset; für die Template-Vorschau freigegeben",
+      "alt": "Original KI-generierte Haar-Inspiration: kupferfarbene Locken beim Styling",
+      "approved": true,
+      "releaseStatus": "template-approved",
+      "assetType": "photorealistic-hair",
+      "usage": "about"
+    }
+  ]
+}
