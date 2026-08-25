@@ -311,7 +311,7 @@ export const salonConfig: SalonConfig = {
     { question: "Wann wird eine externe Karte geladen?", answer: "[ANTWORT ZU KARTENANBIETER UND KLICK-ZUSTIMMUNG]" },
   ],
   seo: {
-    baseUrl: "",
+    baseUrl: "https://friseursalon-demo-editorial-dark-20.vercel.app",
     pages: {
       home: { path: "/", title: "Website-Vorlage | Demo", description: "Öffentliche Design-Demo mit vollständig austauschbaren Platzhalterinhalten." },
       team: { path: "/team/", title: "Team | Website-Vorlage Demo", description: "Öffentliche Design-Demo mit vollständig austauschbaren Platzhalterinhalten." },
