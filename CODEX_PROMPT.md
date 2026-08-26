@@ -1,15 +1,27 @@
 # Codex Prompt · neues Friseursalon-Kundenprojekt
 
+Dieses Dokument ist der auszuführende `$websitebauen`-Auftrag. Als einzige
+Design- und Codebasis ist ausschließlich dieses GitHub-Template erlaubt:
+
+**https://github.com/denniklose/friseursalon-demo-editorial-dark-2026**
+
 Erstelle aus dem privaten GitHub-Template **friseursalon-demo-editorial-dark-2026** eine neue Website für:
 
 - Salonname: **[SALONNAME]**
 - Ort: **[ORT]**
-- öffentliche Ausgangsquelle: **[QUELLE]**
-- gewünschte Akzentfarbe: **[HEX]**
+- Google-Maps-Link: **[MAPS-LINK]**
+
+Ersetze nur diese drei Werte. Die bestehende Champagner-Akzentfarbe **#D9B47A**
+bleibt erhalten, sofern keine ausdrücklich bestätigte Kundenfarbe vorliegt.
 
 ## Unverhandelbare Isolation
 
 Erstelle zuerst ein neues, separates privates GitHub-Kunden-Repository und arbeite ausschließlich darin.
+
+Lege die lokale Kundenkopie unter
+`/Users/tim/Documents/Friseur Websites/[salon-slug]` an. Verwende eine frische
+Git-Historie, ein separates Vercel-Projekt und niemals die Vorlage selbst oder
+ein anderes Kundenprojekt als Arbeits- oder Deploymentziel.
 
 - Das Template-Repository niemals verändern, überschreiben oder deployen.
 - Kein anderes Kunden-Repository verändern.
@@ -150,21 +162,34 @@ Vor einem echten Livegang zusätzlich:
 npm run check:template:strict
 ```
 
-## Veröffentlichung
+## Kunden-Vorschau und Veröffentlichung
 
-Nur wenn alle Pflichtdaten und Freigaben vollständig sind:
+Erstelle nach der Recherche zuerst eine vollständig präsentationsfertige,
+öffentliche Kunden-Vorschau. Sie muss wie eine fertige hochwertige Website
+wirken, darf aber noch keine Suchmaschinenindexierung auslösen:
 
-1. neues separates Hosting-Projekt für diesen Kunden erstellen;
-2. neue eindeutige URL verwenden;
-3. anonyme Erreichbarkeit live prüfen;
-4. alle Routen und CTA-Ziele live testen;
-5. Preview-Hinweis und noindex nur nach ausdrücklicher Freigabe entfernen.
+1. neue eindeutige Vercel-Vorschau-URL verwenden;
+2. `preview.enabled` und `preview.noindex` aktiv lassen;
+3. `noindex, nofollow, noarchive` in Meta, `robots.txt` und `X-Robots-Tag` prüfen;
+4. die Vorschau anonym per HTTP und visuell auf Desktop, Tablet und Mobil prüfen;
+5. die Vorschau-URL erst melden, wenn sie ohne Login erreichbar ist.
 
-Wenn Pflichtdaten fehlen:
+Unbekannte harte Fakten bleiben neutral formuliert und werden im Research-Ledger
+und Handover festgehalten. Impressum und Datenschutz werden als vollständig
+gestaltete Seiten ausgeliefert, enthalten aber keine erfundenen Betreiber- oder
+Rechtsangaben.
 
-- keine fertige Kundenübergabe behaupten;
-- keinen öffentlichen Livegang als abgeschlossen melden;
-- exakt die offenen Punkte ausgeben.
+Erst nach dem Kundenreview und nach bestätigten Betreiberangaben, Öffnungszeiten,
+Teamdaten, Rechtstexten, Assets und sonstigen Freigaben erfolgt der finale
+Produktiv-Livegang:
+
+1. Freigaben in Konfiguration, Ledger und Handover dokumentieren;
+2. alle CTA-, Telefon-, E-Mail-, Booking-, Social- und Kartenlinks testen;
+3. Preview-Hinweis und noindex nur nach ausdrücklicher Freigabe entfernen;
+4. finale Produktions-URL anonym prüfen.
+
+Wenn Pflichtdaten fehlen, keine fertige Produktionsfreigabe behaupten, sondern
+die offenen Punkte exakt ausgeben.
 
 ## Abschlussbericht
 

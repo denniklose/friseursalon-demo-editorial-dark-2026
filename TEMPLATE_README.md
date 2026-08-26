@@ -1,5 +1,8 @@
 # Friseursalon Demo Editorial Dark 2026
 
+GitHub-Quelle für neue Kundenkopien:
+`https://github.com/denniklose/friseursalon-demo-editorial-dark-2026`
+
 ## Zweck
 
 Diese private Quellvorlage liefert eine öffentlich erreichbare, vollständig anonyme Design-Demo für Friseursalon-Websites. Die Demo stellt kein reales Unternehmen dar. Alle sichtbaren Identitäts-, Kontakt-, Leistungs-, Team-, Zeit- und Rechtsangaben sind klar markierte Platzhalter.
@@ -35,7 +38,7 @@ Die Demo ist über Metadaten, `robots.txt`, leere Sitemap und `X-Robots-Tag` auf
 
 Die Rechtstext-Seiten sind keine gültigen Rechtstexte. Vor einer öffentlichen werblichen Nutzung muss zusätzlich ein bestätigter Anbieter-Impressumslink der Person oder Firma ergänzt werden, die diese Demo bewirbt.
 
-## Prüfung vor einer Kundenveröffentlichung
+## Prüfung vor einer Kunden-Vorschau
 
 ```bash
 npm ci
@@ -48,4 +51,12 @@ npm run build
 npm audit --audit-level=high
 ```
 
-Danach alle Seiten auf 1920, 1440, 1280, Tablet und 390 Pixel Breite prüfen, sämtliche Platzhalter ersetzen, externe Ziele testen, Assets dokumentieren und Rechtstexte fachlich freigeben.
+Danach alle Seiten auf 1920, 1440, 1280, Tablet und 390 Pixel Breite prüfen.
+Die erste öffentliche Vorschau darf bereits vor dem Kundenreview erscheinen,
+wenn sie als `noindex, nofollow, noarchive` gekennzeichnet ist und keine
+erfundenen Fakten enthält. Offene Punkte gehören in `RESEARCH_LEDGER.md` und
+`HANDOVER_CHECKLIST.md`.
+
+Erst nach dem Review werden echte Betreiberangaben, bestätigte Öffnungszeiten,
+Teamdaten, Assets, Rechtstexte und Kontaktziele freigegeben. Danach folgt der
+finale Produktions-Livegang.
